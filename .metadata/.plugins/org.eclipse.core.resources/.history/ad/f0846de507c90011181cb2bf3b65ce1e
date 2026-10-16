@@ -1,0 +1,30 @@
+package com.klef.soa.exam.service;
+
+import java.util.List;
+
+import com.klef.soa.exam.entity.CoffeeShop;
+
+public class CoffeeShopImpl implements CoffeeShopService {
+	
+	@Autowired
+	private DCoffeeShopRepository repo;
+
+	@Override
+	public CoffeeShop addcoffeeshop(CoffeeShop c) {
+		
+		return null// TODO Auto-generated method stub;
+	}
+
+	@Override
+	public List<CoffeeShop> displayAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteCoffeeShopById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

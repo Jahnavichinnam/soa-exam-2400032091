@@ -1,0 +1,32 @@
+package com.klef.soa.exam.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.klef.soa.exam.entity.CoffeeShop;
+import com.klef.soa.exam.repository.CoffeeShopRepository;
+
+public class CoffeeShopImpl implements CoffeeShopService {
+	
+	@Autowired
+	private CoffeeShopRepository repo;
+
+	@Override
+	public CoffeeShop addcoffeeshop(CoffeeShop c) {
+		
+		return null;
+	}
+
+	@Override
+	public List<CoffeeShop> displayAll() {
+		return repo.save(d);
+	}
+
+	@Override
+	public String deleteCoffeeShopById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

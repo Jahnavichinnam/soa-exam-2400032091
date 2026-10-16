@@ -1,0 +1,17 @@
+package com.klef.soa.exam.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.klef.soa.exam.entity.CoffeeShop;
+
+@Service
+
+public interface CoffeeShopService {
+	
+	CoffeeShop addcoffeeshop(CoffeeShop c);
+	List<CoffeeShop> displayAll();
+	String deleteCoffeeShopById(Long id);
+
+}

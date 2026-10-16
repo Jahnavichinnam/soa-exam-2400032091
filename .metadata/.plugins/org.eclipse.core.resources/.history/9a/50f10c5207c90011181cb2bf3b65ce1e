@@ -1,0 +1,10 @@
+package com.klef.soa.exam.service;
+
+import com.klef.soa.exam.entity.CoffeeShop;
+
+public interface CoffeeShopService {
+	
+	CoffeeShop addcoffeeshop(CoffeeShop c);
+	List<Doctor> displayAllDoctors();
+
+}
